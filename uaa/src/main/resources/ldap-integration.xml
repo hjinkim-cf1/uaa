@@ -32,7 +32,7 @@
     </util:map>
 
     <bean id="ldapPropertyProcessor" class="org.cloudfoundry.identity.uaa.ldap.ProcessLdapProperties">
-        <constructor-arg name="disableSslVerification" value="${ldap.ssl.skipverification:true}"/>
+        <constructor-arg name="disableSslVerification" value="${ldap.ssl.skipverification:false}"/>
         <constructor-arg name="baseUrl" value="${ldap.base.url:ldap://localhost:389/dc=test,dc=com}"/>
     </bean>
 
