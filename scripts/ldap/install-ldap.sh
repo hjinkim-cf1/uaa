@@ -2,7 +2,7 @@
 
 sudo chown root:root /usr/bin/sudo
 sudo chmod 4755 /usr/bin/sudo
-echo ":::::::::::::::::::sudo test:::::::::::::::::"
+echo ":::::::::::::::::sudo test:::::::::::::::::"
 sudo apt-cache policy git
 
 set -e
