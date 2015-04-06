@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo ":::::::::::::::::::sudo test:::::::::::::::::"
+sudo apt-cache policy git
+
 set -e
 
 cd `dirname $0`/../..
