@@ -1,9 +1,7 @@
 #!/bin/bash
 
-su -
-chown root:root /usr/bin/sudo
-chmod 4755 /usr/bin/sudo
-exit
+sudo chown root:root /usr/bin/sudo
+sudo chmod 4755 /usr/bin/sudo
 echo ":::::::::::::::::::sudo test:::::::::::::::::"
 sudo apt-cache policy git
 
