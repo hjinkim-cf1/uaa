@@ -1,11 +1,5 @@
 #!/bin/bash
 
-echo "who am i"
-whoami
-sudo chmod 4755 `which sudo`
-echo ":::::::::::::::::sudo test:::::::::::::::::"
-sudo apt-cache policy git
-
 set -e
 
 cd `dirname $0`/../..
